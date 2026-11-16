@@ -12,12 +12,13 @@ export const portfolioData: PortfolioData = {
   personal: {
     name: "Alex Morgan", // Replace with your name
     role: "Full-Stack Software Engineer",
-    location: "San Francisco, CA / Remote",
+    location: "Delhi, India",
+    timezone: "IST (UTC+5:30)",
     availability: "Available for new roles & selected freelance",
     availableForHire: true,
     headline: "Building digital experiences through code.",
     bio: [
-      "I am a passionate software engineer focused on crafting clean, high-performance web applications with exceptional user experiences.",
+      "I am a passionate software engineer based in Delhi, India, focused on crafting clean, high-performance web applications with exceptional user experiences.",
       "My work sits at the intersection of robust backend engineering, elegant frontend architecture, and thoughtful human-centric design. I love breaking down complex problems into modular, maintainable systems.",
       "When I am not coding, you will find me exploring distributed systems, writing technical breakdowns, and experimenting with generative AI workflows."
     ],

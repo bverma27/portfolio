@@ -10,7 +10,8 @@ import {
   Linkedin, 
   Twitter, 
   MessageSquare,
-  Clock
+  Clock,
+  MapPin
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { SectionHeading } from '../ui/SectionHeading';
@@ -191,10 +192,21 @@ export const Contact: React.FC<ContactProps> = ({ onCopyEmail, copiedEmail, show
               </div>
             </div>
 
-            {/* Availability note */}
-            <div className="flex items-center gap-3 p-4 rounded-xl bg-white/[0.02] border border-white/[0.04] text-xs text-zinc-400">
-              <Clock className="w-4 h-4 text-zinc-500 shrink-0" />
-              <span>Available for engineering contracts, full-time positions, and consulting.</span>
+            {/* Location & Timezone info card */}
+            <div className="p-4 rounded-xl bg-white/[0.02] border border-white/[0.04] space-y-2 text-xs text-zinc-400">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2 text-zinc-300">
+                  <MapPin className="w-3.5 h-3.5 text-emerald-400" />
+                  <span className="font-medium">Delhi, India</span>
+                </div>
+                <span className="font-mono text-[11px] text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2 py-0.5 rounded">
+                  IST (UTC+5:30)
+                </span>
+              </div>
+              <div className="flex items-center gap-2 text-zinc-500 text-[11px] pt-1">
+                <Clock className="w-3.5 h-3.5 text-zinc-500 shrink-0" />
+                <span>Available for remote & hybrid engineering opportunities worldwide.</span>
+              </div>
             </div>
           </motion.div>
 

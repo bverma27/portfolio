@@ -55,8 +55,10 @@ export const Hero: React.FC<HeroProps> = ({ onCopyEmail, copiedEmail }) => {
             </div>
 
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-mono bg-white/[0.03] border border-white/[0.06] text-zinc-400">
-              <MapPin className="w-3.5 h-3.5 text-zinc-400" />
+              <MapPin className="w-3.5 h-3.5 text-emerald-400" />
               <span>{personal.location}</span>
+              <span className="text-zinc-600">•</span>
+              <span className="text-zinc-500">IST (UTC+5:30)</span>
             </div>
           </motion.div>
 

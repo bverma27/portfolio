@@ -12,7 +12,8 @@ import {
   Code, 
   Layers, 
   BookOpen, 
-  Terminal 
+  Terminal,
+  MapPin 
 } from 'lucide-react';
 import { portfolioData } from '../../config/portfolio';
 
@@ -119,6 +120,17 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({
         window.open(`mailto:${portfolioData.personal.email}`, '_blank');
         onClose();
       },
+    },
+    {
+      id: 'act-location',
+      title: 'Current Location',
+      subtitle: 'Delhi, India (IST, UTC+5:30)',
+      icon: <MapPin className="w-4 h-4 text-emerald-400" />,
+      category: 'Actions',
+      action: () => {
+        navigateTo('#contact');
+      },
+      shortcut: 'G D',
     },
     // Socials
     {

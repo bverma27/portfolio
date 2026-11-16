@@ -43,7 +43,7 @@ export const Footer: React.FC = () => {
               </span>
             </div>
             <p className="text-xs text-zinc-500 max-w-xs">
-              {personal.role} crafting resilient web experiences.
+              {personal.role} based in Delhi, India 🇮🇳. Crafting resilient web experiences.
             </p>
           </div>
 
@@ -96,8 +96,10 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Credits & Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-zinc-500">
-          <div>
-            © {currentYear} {personal.name}. All rights reserved.
+          <div className="flex flex-wrap items-center justify-center sm:justify-start gap-1.5 sm:gap-2 text-center sm:text-left">
+            <span>© {currentYear} {personal.name}. All rights reserved.</span>
+            <span>•</span>
+            <span>Delhi, India (IST)</span>
           </div>
 
           <div className="flex items-center gap-1.5">

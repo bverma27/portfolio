@@ -146,6 +146,15 @@ export const About: React.FC = () => {
               </div>
             </div>
 
+            {/* Geographic Base Tag */}
+            <div className="p-3 rounded-xl bg-white/[0.02] border border-white/[0.05] flex items-center justify-between text-xs font-mono">
+              <span className="text-zinc-500">Geographic Base</span>
+              <span className="text-zinc-300 font-medium flex items-center gap-1.5">
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
+                Delhi, India (IST, UTC+5:30)
+              </span>
+            </div>
+
           </motion.div>
 
         </div>

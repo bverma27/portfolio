@@ -4,20 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Software Engineer & Creative Developer</title>
-    <meta name="description" content="Personal developer portfolio showcasing full-stack web applications, modern frontend architecture, and technical projects." />
-    <meta name="keywords" content="Software Engineer, Full Stack Developer, Frontend Engineer, React, Next.js, Node.js, TypeScript, Tailwind CSS, Portfolio" />
-    <meta name="author" content="Developer Portfolio" />
+    <meta name="description" content="Personal developer portfolio of a software engineer based in Delhi, India, showcasing full-stack web applications, modern frontend architecture, and technical projects." />
+    <meta name="keywords" content="Software Engineer, Full Stack Developer, Frontend Engineer, Delhi India, React, Next.js, Node.js, TypeScript, Tailwind CSS, Portfolio" />
+    <meta name="author" content="Bhaskar Verma" />
+
+    <!-- Geographic & Location Metadata -->
+    <meta name="geo.region" content="IN-DL" />
+    <meta name="geo.placename" content="Delhi, India" />
+    <meta name="geo.position" content="28.6139;77.2090" />
+    <meta name="ICBM" content="28.6139, 77.2090" />
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Portfolio | Software Engineer & Creative Developer" />
-    <meta property="og:description" content="Building digital experiences through code. Full-stack developer specializing in modern web ecosystems." />
+    <meta property="og:description" content="Building digital experiences through code. Full-stack developer based in Delhi, India, specializing in modern web ecosystems." />
     <meta property="og:image" content="/og-preview.svg" />
+    <meta property="og:url" content="https://bhaskarverma.me" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:title" content="Portfolio | Software Engineer & Creative Developer" />
-    <meta property="twitter:description" content="Building digital experiences through code. Full-stack developer specializing in modern web ecosystems." />
+    <meta property="twitter:description" content="Building digital experiences through code. Full-stack developer based in Delhi, India, specializing in modern web ecosystems." />
     <meta property="twitter:image" content="/og-preview.svg" />
 
     <!-- Theme Color -->
@@ -31,6 +38,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Bhaskar Verma",
+      "jobTitle": "Full-Stack Software Engineer",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Delhi",
+        "addressRegion": "Delhi",
+        "addressCountry": "IN"
+      },
+      "homeLocation": {
+        "@type": "Place",
+        "name": "Delhi, India"
+      },
+      "url": "https://bhaskarverma.me"
+    }
+    </script>
   </head>
   <body class="bg-background text-zinc-100 antialiased selection:bg-emerald-500/20 selection:text-emerald-300">
     <div id="root"></div>

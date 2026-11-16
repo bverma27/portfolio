@@ -43,6 +43,7 @@ export interface PortfolioData {
     name: string;
     role: string;
     location: string;
+    timezone?: string;
     availability: string;
     availableForHire: boolean;
     headline: string;
