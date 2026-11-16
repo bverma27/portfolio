@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#090a0f"/>
+  <circle cx="600" cy="100" r="350" fill="#10b981" fill-opacity="0.12" filter="blur(140px)"/>
+  <circle cx="750" cy="300" r="250" fill="#6366f1" fill-opacity="0.1" filter="blur(140px)"/>
+  
+  <!-- Subtle Grid lines -->
+  <path d="M0 100H1200M0 200H1200M0 300H1200M0 400H1200M0 500H1200" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+  <path d="M200 0V630M400 0V630M600 0V630M800 0V630M1000 0V630" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+
+  <!-- Card Frame -->
+  <rect x="80" y="80" width="1040" height="470" rx="24" fill="#111218" fill-opacity="0.8" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.5"/>
+
+  <!-- Terminal Header -->
+  <circle cx="130" cy="130" r="6" fill="#ef4444"/>
+  <circle cx="150" cy="130" r="6" fill="#f59e0b"/>
+  <circle cx="170" cy="130" r="6" fill="#10b981"/>
+  <text x="210" y="135" fill="#71717a" font-family="monospace" font-size="14">alex.dev — portfolio</text>
+
+  <!-- Content -->
+  <text x="130" y="240" fill="#10b981" font-family="monospace" font-size="16" letter-spacing="2">AVAILABLE FOR NEW ROLES</text>
+  <text x="130" y="320" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="52">Building digital experiences through code.</text>
+  <text x="130" y="380" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="24">Full-Stack Software Engineer • React • Next.js • Node.js • TypeScript</text>
+
+  <!-- Bottom Badges -->
+  <rect x="130" y="440" width="140" height="40" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1"/>
+  <text x="200" y="465" fill="#e4e4e7" font-family="monospace" font-size="14" text-anchor="middle">TypeScript</text>
+
+  <rect x="290" y="440" width="140" height="40" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1"/>
+  <text x="360" y="465" fill="#e4e4e7" font-family="monospace" font-size="14" text-anchor="middle">React &amp; Next.js</text>
+
+  <rect x="450" y="440" width="140" height="40" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1"/>
+  <text x="520" y="465" fill="#e4e4e7" font-family="monospace" font-size="14" text-anchor="middle">Node &amp; Express</text>
+
+  <rect x="610" y="440" width="140" height="40" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1"/>
+  <text x="680" y="465" fill="#e4e4e7" font-family="monospace" font-size="14" text-anchor="middle">MongoDB</text>
+</svg>
