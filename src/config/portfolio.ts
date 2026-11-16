@@ -10,7 +10,7 @@ import { PortfolioData } from '../types';
  */
 export const portfolioData: PortfolioData = {
   personal: {
-    name: "Alex Morgan", // Replace with your name
+    name: "Bhaskar Verma",
     role: "Full-Stack Software Engineer",
     location: "Delhi, India",
     timezone: "IST (UTC+5:30)",
@@ -31,34 +31,34 @@ export const portfolioData: PortfolioData = {
       "Open Source Software",
       "Generative AI & LLM Systems"
     ],
-    email: "alex.morgan.dev@example.com", // Replace with your email
+    email: "bhaskarverma2712@gmail.com",
     resumeUrl: "#", // Link to resume PDF if available
   },
 
   socials: [
     {
       name: "GitHub",
-      url: "https://github.com",
+      url: "https://github.com/bverma27",
       icon: "Github",
-      handle: "@alexmorgan",
+      handle: "@bverma27",
     },
     {
       name: "LinkedIn",
       url: "https://linkedin.com",
       icon: "Linkedin",
-      handle: "in/alexmorgandev",
+      handle: "in/bhaskarverma",
     },
     {
       name: "X / Twitter",
       url: "https://x.com",
       icon: "Twitter",
-      handle: "@alexmorgancodes",
+      handle: "@bhaskarverma",
     },
     {
       name: "Email",
-      url: "mailto:alex.morgan.dev@example.com",
+      url: "mailto:bhaskarverma2712@gmail.com",
       icon: "Mail",
-      handle: "alex.morgan.dev@example.com",
+      handle: "bhaskarverma2712@gmail.com",
     },
   ],
 

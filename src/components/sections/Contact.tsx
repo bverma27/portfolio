@@ -127,12 +127,16 @@ export const Contact: React.FC<ContactProps> = ({ onCopyEmail, copiedEmail, show
               </div>
 
               <div className="flex items-center justify-between gap-3 p-3 rounded-xl bg-white/[0.03] border border-white/[0.06]">
-                <div className="flex items-center gap-2.5 overflow-hidden">
-                  <Mail className="w-4 h-4 text-zinc-400 shrink-0" />
-                  <span className="text-xs sm:text-sm font-mono text-zinc-200 truncate">
+                <a
+                  href={`mailto:${personal.email}`}
+                  title={`Send email to ${personal.email}`}
+                  className="flex items-center gap-2.5 overflow-hidden group/mail flex-1 min-w-0"
+                >
+                  <Mail className="w-4 h-4 text-emerald-400 shrink-0 group-hover/mail:scale-110 transition-transform" />
+                  <span className="text-xs sm:text-sm font-mono text-zinc-200 group-hover/mail:text-emerald-400 group-hover/mail:underline underline-offset-4 transition-colors truncate">
                     {personal.email}
                   </span>
-                </div>
+                </a>
 
                 <button
                   type="button"
@@ -150,9 +154,10 @@ export const Contact: React.FC<ContactProps> = ({ onCopyEmail, copiedEmail, show
 
               <a
                 href={`mailto:${personal.email}`}
-                className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-white/[0.05] hover:bg-white/[0.1] text-zinc-300 hover:text-white text-xs font-mono border border-white/[0.06] transition-colors"
+                className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400 hover:text-emerald-300 text-xs font-mono font-medium border border-emerald-500/20 hover:border-emerald-500/30 transition-all shadow-sm"
               >
-                <span>Open in Mail Client</span>
+                <Mail className="w-3.5 h-3.5" />
+                <span>Email Me</span>
                 <ArrowUpRight className="w-3.5 h-3.5" />
               </a>
             </div>

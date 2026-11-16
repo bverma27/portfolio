@@ -45,6 +45,16 @@ export const Footer: React.FC = () => {
             <p className="text-xs text-zinc-500 max-w-xs">
               {personal.role} based in Delhi, India 🇮🇳. Crafting resilient web experiences.
             </p>
+            <div className="pt-0.5">
+              <a
+                href={`mailto:${personal.email}`}
+                title={`Send email to ${personal.email}`}
+                className="inline-flex items-center gap-1.5 text-xs font-mono text-zinc-400 hover:text-emerald-400 transition-colors"
+              >
+                <Mail className="w-3.5 h-3.5 text-emerald-400" />
+                <span>{personal.email}</span>
+              </a>
+            </div>
           </div>
 
           {/* Quick Nav Links */}
